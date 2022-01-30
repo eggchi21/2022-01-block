@@ -10207,10 +10207,10 @@
       }
     </style>
     <div class="buttons">
-      <button onclick=${rotate} alt="rotate (key: R)" title="rotate (key: R)">
+      <button style="display:none" onclick=${rotate} alt="rotate (key: R)" title="rotate (key: R)">
         ${state.ui.brick[0] > state.ui.brick[2] ? '\u21b7' : '\u21b6'}
       </button>
-      <button onclick=${toggleRemove}
+      <button style="display:none" onclick=${toggleRemove}
         alt="toggle remove mode ${state.ui.remove ? 'off' : 'on'} (key: d)"
         title="toggle remove mode ${state.ui.remove ? 'off' : 'on'} (key: d)"
         class="toggle ${state.ui.remove ? 'active' : ''}">X</button>
